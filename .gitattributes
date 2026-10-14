@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+# Preserve the upstream snapshot bytes without line-ending conversion.
+app/index.html -text
+app/lib/three_hg.js -text
+app/lib/LICENSE_three.txt -text

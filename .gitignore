@@ -1,0 +1,37 @@
+# Local runtime and generated data
+/cache/
+/runtime/
+/work/
+/outputs/
+/samples/
+/original/
+/source-modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# Keep only empty data indexes in the code repository
+/app/packs/*
+!/app/packs/index.json
+/app/search/*
+!/app/search/index.json
+
+# Local settings, credentials, logs, and exports
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.pfx
+*.p12
+*.zip
+*.glb
+*.fbx
+*.obj
+.DS_Store
+Thumbs.db
+.codex/
+.agents/

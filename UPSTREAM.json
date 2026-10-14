@@ -1,0 +1,42 @@
+{
+  "project": "Rokehan / Location Scout / 随处勘景 / どこでもロケハン",
+  "author": "MIYADAIKU",
+  "author_group": "おやすみゲーム開発部 / Oyasumi Game Dev",
+  "source_url": "https://tools.oyasumi-gamedev.com/rokehan/",
+  "author_documentation_url": "https://oyasumi-gamedev.com/tools/rokehan/",
+  "archived_on": "2026-10-14",
+  "provenance": "Published browser-delivered files, not a clone of an upstream Git repository. Original upstream commit and whole-application license are unconfirmed.",
+  "preserved_upstream_files": [
+    {
+      "path": "app/index.html",
+      "source_url": "https://tools.oyasumi-gamedev.com/rokehan/",
+      "bytes": 1073142,
+      "sha256": "aeeaf45a2c60be39a89aa9ab95bfa81ab00e84f81b71fa68965ec5f5455a71b7",
+      "modified": false
+    },
+    {
+      "path": "app/lib/three_hg.js",
+      "source_url": "https://tools.oyasumi-gamedev.com/rokehan/lib/three_hg.js?v=2647db15",
+      "bytes": 722887,
+      "sha256": "2647db1537fd1d51ee3f70e52fddab35e21e48598fd54e72f09313896a863080",
+      "modified": false
+    },
+    {
+      "path": "app/lib/LICENSE_three.txt",
+      "source_url": "https://tools.oyasumi-gamedev.com/rokehan/lib/LICENSE_three.txt?v=4c40a1ef",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+      "modified": false
+    }
+  ],
+  "local_additions": [
+    "server.py",
+    "local-cache.js",
+    "start-local.cmd",
+    "tools/extract_modules.py",
+    "app/packs/index.json",
+    "app/search/index.json",
+    "repository documentation and Git configuration"
+  ],
+  "omitted_data": "Map packs, elevation and HTTP caches, search database, and bundled Python runtime are excluded."
+}
